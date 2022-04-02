@@ -1,17 +1,22 @@
-<script src="http://cdn.bootcss.com/purl/2.3.1/purl.min.js"></script>
- 
-<script>
-var url = purl();
-if (url.attr('host') == 'ihtc.cc') {
-    var old_url = url.attr('source');
-    var new_url = old_url.replace('ihtc.cc', "ihtcboy.com");
-    window.location.replace(new_url); 
-}else if (url.attr('host') == 'www.ihtc.cc') {
-    var old_url = url.attr('source');
-    var new_url = old_url.replace('www.ihtc.cc', "ihtcboy.com");
-    window.location.replace(new_url);
-}else {
-    window.location.href="https://ihtcboy.com";
-}
-    
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: ''
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
