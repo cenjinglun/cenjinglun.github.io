@@ -1,6 +1,0 @@
-<!-- # Headline
-
-> An awesome project. -->
-| Title | Year | Where | Picture | Comment | PDF | Note | Code |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| ***Building a Large Scale Dataset for Image Emotion Recognition- The Fine Print and The Benchmark*** | **2016** | **AAAI** | <img src="./Papers/2016_Building%20a%20Large%20Scale%20Dataset%20for%20Image%20Emotion%20Recognition-%20The%20Fine%20Print%20and%20The%20Benchmark%20(AAAI)/Pictures/image-20220308090946518.png" width = "600" alt="" align=center /> | FI 数据集 | [pdf](./Papers/2016_Building%20a%20Large%20Scale%20Dataset%20for%20Image%20Emotion%20Recognition-%20The%20Fine%20Print%20and%20The%20Benchmark%20(AAAI)/2016_Building%20a%20Large%20Scale%20Dataset%20for%20Image%20Emotion%20Recognition-%20The%20Fine%20Print%20and%20The%20Benchmark%20(AAAI).pdf) | [note](./Papers/2016_Building%20a%20Large%20Scale%20Dataset%20for%20Image%20Emotion%20Recognition-%20The%20Fine%20Print%20and%20The%20Benchmark%20(AAAI)/2016_Building%20a%20Large%20Scale%20Dataset%20for%20Image%20Emotion%20Recognition-%20The%20Fine%20Print%20and%20The%20Benchmark%20(AAAI).md) | [code](./Papers/2016_Building%20a%20Large%20Scale%20Dataset%20for%20Image%20Emotion%20Recognition-%20The%20Fine%20Print%20and%20The%20Benchmark%20(AAAI)/Codes) |
