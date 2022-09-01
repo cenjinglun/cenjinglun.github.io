@@ -1,0 +1,22 @@
+---
+layout: page
+title: "介绍"
+description: "「这是介绍」"
+header-img: "img/base/page_introduce.jpg"
+header-mask: 0.2
+multilingual: true
+---
+
+{% include multilingual-sel.html %}
+<div class="zh post-container">
+    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<div class="en post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
+
+
+

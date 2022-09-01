@@ -1,0 +1,14 @@
+
+_site
+old
+_posts/_draft
+_posts/_archive
+_archive
+.vscode
+*.log
+*.lock
+*.sh
+.DS_Store
+.jekyll-cache
+*/.DS_Store
+*/*/.DS_Store

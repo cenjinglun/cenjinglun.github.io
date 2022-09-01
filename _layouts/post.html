@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% include intro-header.html type='post' %}
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                {% if page.multilingual %}
+                    {% include multilingual-sel.html %}
+                {% endif %}
+
+				{{ content }}
+     
+            </div>  
+
+        {% unless page.no-catalog %}
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">目录</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        {% endunless %}
+        </div>
+    </div>
+</article>
+
+
+{% if page.mathjax %}
+  {% include mathjax_support.html %}
+{% endif %}
